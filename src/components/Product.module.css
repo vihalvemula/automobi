@@ -1,0 +1,38 @@
+.card {
+  max-width: 250px;
+  height: 350px;
+  border: 1px rgb(175, 175, 175) solid;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.card:hover,
+.card:active {
+  border: 5px grey solid;
+
+  border-radius: 10px;
+}
+.np {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 99%;
+  max-height: 60%;
+  padding-left: 0%;
+  margin-bottom: 25px;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.inline h2 {
+  margin: 0%;
+}
